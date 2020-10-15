@@ -55,5 +55,24 @@ int main() {
   printf("'stringtest': length = %d\n", string_length("stringtest"));
 
   return 0;
+  
+/*
+#include <string.h>
+strcpy(str1, str2)
+    - copies str1 into str2
+    - returns str2
+strcat(str1, str2)
+    - concatenates str1 and str2
+    - returns this concatenation
+strcmp(str1, str2)
+    - compares str1 and str2 to see if identical.
+    - if identical, return 0;
+    - if not, return positive or negative ASCII value of unmatched char (depending on which 
+      str is "greater" in ASCII value.
+strchr(c, str1)
+    - searches for first occurrence of "c" in str1
+    - returns a pointer to this first occurrence
+    - returns NULL if no occurrence is found
+*/
 
 }
